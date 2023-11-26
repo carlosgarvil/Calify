@@ -21,7 +21,7 @@
    * Call "beastify()" or "reset()".
    */
   browser.runtime.onMessage.addListener((message) => {
-    if (message.command === "beastify") {
+    if (message.command === "set") {
       var inputsNumber = document.querySelectorAll('.contenido_informacion_sistema input[type="number"]');
       var firstValue = inputsNumber[0].value;
       for (var i = 1; i < inputsNumber.length; i++) {

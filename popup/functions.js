@@ -30,7 +30,7 @@ function listenForClicks() {
       browser.tabs.insertCSS({code: hidePage}).then(() => {
         const url = beastNameToURL(e.target.textContent);
         browser.tabs.sendMessage(tabs[0].id, {
-          command: "beastify",
+          command: "set",
           beastURL: url
         });
       });
@@ -90,6 +90,6 @@ function reportExecuteScriptError(error) {
  * and add a click handler.
  * If we couldn't inject the script, handle the error.
  */
-browser.tabs.executeScript({file: "/content_scripts/beastify.js"})
+browser.tabs.executeScript({file: "/content_scripts/set.js"})
 .then(listenForClicks)
 .catch(reportExecuteScriptError);
