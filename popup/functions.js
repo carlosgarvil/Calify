@@ -11,15 +11,6 @@ const hidePage = ``;
 function listenForClicks() {
   document.addEventListener("click", (e) => {
 
-    /**
-     * Given the name of a beast, get the URL to the corresponding image.
-     */
-    function beastNameToURL(beastName) {
-      switch (beastName) {
-        case "Copiar":
-          return browser.runtime.getURL("beasts/frog.jpg");
-      }
-    }
 
     /**
      * Insert the page-hiding CSS into the active tab,
@@ -28,10 +19,9 @@ function listenForClicks() {
      */
     function beastify(tabs) {
       browser.tabs.insertCSS({code: hidePage}).then(() => {
-        const url = beastNameToURL(e.target.textContent);
         browser.tabs.sendMessage(tabs[0].id, {
           command: "set",
-          beastURL: url
+          beastURL: ""
         });
       });
     }
