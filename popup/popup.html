@@ -3,15 +3,43 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <style>
+      #popup-content{
+        text-align: center;
+        
+      }
+      h3{
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        padding: 0;
+        text-decoration: underline;
+      }
+      button{
+        font-size: .9rem;
+        margin: 5px auto;
+        border: 1px solid black;
+        border-radius: .2rem;
+        background-color: #0476b3;
+        cursor: pointer;
+        color:white;
+        padding: 5px 10px;
+      }
+      button:hover{
+        background-color: #005191;
+      }
+      button:first-child{
+        margin-bottom: 20px;
+      }
+    </style>
   </head>
 
 <body>
   <div id="popup-content">
+    <h3>Calify</h3>
     <button>Copiar notas</button><br>
     <button type="reset">Borrar todo</button>
   </div>
   <div id="error-content" class="hidden">
-    <hr>
   </div>
   <script src="functions.js"></script>
 </body>
