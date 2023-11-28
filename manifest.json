@@ -3,7 +3,7 @@
   "description": "Copiar calificaciones en el cuaderno de Séneca. Esta extensión te permite copiar la primera calificación en el resto de Criterios",
   "manifest_version": 2,
   "name": "Calify",
-  "version": "2.0",
+  "version": "2.1",
   "homepage_url": "https://github.com/carlosgarvil/Calify",
   "browser_specific_settings": {
     "gecko": {
