@@ -11,12 +11,12 @@ Puedes descargar el archivo desde [aquí](https://github.com/carlosgarvil/Calify
 
 # Instalación del addon en Firefox
 Para instalar cualquier extensión en Firefox con el archivo de instalación, podemos hacerlo de varias formas:
-<ol><li>Usar el menú Abrir del navegador y navegar hasta la ubicación del archivo XPI.</li>
+<ul><li>Usar el menú Abrir del navegador y navegar hasta la ubicación del archivo XPI.</li>
 <li>Arrastrarlo y soltarlo encima del navegador.</li>
-<li>En el panel de Administrador de complementos que se puede abrir con la dirección: about:addons, da un clic en el icono de la rueda dentada y en el menú escoge: “Instalar complemento desde archivo”.</li></ol>
+<li>En el panel de Administrador de complementos que se puede abrir con la dirección: about:addons, da un clic en el icono de la rueda dentada y en el menú escoge: “Instalar complemento desde archivo”.</li></ul>
 
 # Notas técnicas
-Esta función ya existía en Séneca como clonarCalificacionF8() pero no estaba anunciada. En algún momento la hicieron desaparecer del código y ahí se me ocurrió hacer un addon del navegador.
-La extensión toma como base el ejemplo Beastify (que proporciona Firefox) y que permite insertar código JS y CSS en la pestaña activa.
-En el repositorio tenéis el archivo XPI y los archivos no están minimizados, por lo que el código se puede ver simplemente renombrando el archivo a .ZIP
-Entiendo que esta función volverá a Séneca más pronto que tarde, pero mientras tanto espero que os ahorre tanto tiempo como a mí.
+<p>Esta función ya existía en Séneca como clonarCalificacionF8() pero no estaba anunciada. En algún momento la hicieron desaparecer del código y ahí se me ocurrió hacer un addon del navegador.
+La extensión toma como base el ejemplo Beastify (que proporciona Firefox) y que permite insertar código JS y CSS en la pestaña activa.</p>
+<p>En el repositorio tenéis el archivo XPI.
+Entiendo que esta función volverá a Séneca más pronto que tarde, pero mientras tanto espero que os ahorre tanto tiempo como a mí.</p>
