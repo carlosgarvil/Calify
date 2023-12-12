@@ -10,7 +10,7 @@ Puedes descargar el archivo desde [aquí](https://github.com/carlosgarvil/Calify
 
 
 # Instalación del addon en Firefox
-Instalar un archivo XPI en Firefox es un proceso sencillo y puede realizarse siguiendo estos pasos:
+Instalar una extensión en Firefox es un proceso sencillo y puede realizarse siguiendo estos pasos:
 1. **Abre Firefox:**
    Asegúrate de tener Firefox instalado en tu PC y ábrelo.
 
