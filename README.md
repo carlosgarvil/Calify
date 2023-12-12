@@ -5,7 +5,7 @@
 # ¿Cómo funciona?
 Simplemente, abre el cuaderno de Séneca y pulsa en una actividad para añadir las calificaciones. Tan sólo tendrás que poner la primera nota y luego, en la extensión, pulsar en la opción Copiar notas.
 
-Puedes descargar el archivo desde [aquí](https://github.com/carlosgarvil/Calify/blob/master/Calify-2.11.xpi) (pulsa en click derecho y "Guardar enlace como...")y seguir los siguientes pasos para la instalación.
+Puedes descargar el archivo desde [aquí](https://github.com/carlosgarvil/Calify/blob/master/Calify-2.11.xpi) (pulsa en click derecho y "Guardar enlace como...") y seguir los siguientes pasos para la instalación.
 
 
 
