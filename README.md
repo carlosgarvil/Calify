@@ -10,10 +10,30 @@ Puedes descargar el archivo desde [aquí](https://github.com/carlosgarvil/Calify
 
 
 # Instalación del addon en Firefox
-Para instalar cualquier extensión en Firefox con el archivo de instalación, podemos hacerlo de varias formas:
-<ul><li>Usar el menú Abrir del navegador y navegar hasta la ubicación del archivo XPI.</li>
-<li>Arrastrarlo y soltarlo encima del navegador.</li>
-<li>En el panel de Administrador de complementos que se puede abrir con la dirección: about:addons, da un clic en el icono de la rueda dentada y en el menú escoge: “Instalar complemento desde archivo”.</li></ul>
+Instalar un archivo XPI en Firefox es un proceso sencillo y puede realizarse siguiendo estos pasos:
+1. **Abre Firefox:**
+   Asegúrate de tener Firefox instalado en tu PC y ábrelo.
+
+2. **Accede a la Configuración de Firefox:**
+   Haz clic en el icono de las tres líneas horizontales en la esquina superior derecha de la ventana de Firefox para abrir el menú. Luego, selecciona "Complementos".
+
+3. **Accede a Complementos:**
+   En la página de Complementos, busca la opción llamada "Complementos" en el menú lateral izquierdo.
+
+4. **Accede a Configuración de Complementos:**
+   En la parte superior de la página de Complementos, busca y haz clic en el icono de engranaje o enlace que dice "Configuración de Complementos".
+
+5. **Instala el Complemento desde un Archivo:**
+   Después de hacer clic en "Configuración de Complementos", se abrirá una nueva ventana. Busca la opción que dice "Instalar un complemento desde un archivo" y haz clic en ella.
+
+6. **Selecciona el Archivo XPI:**
+   Aparecerá una ventana de explorador de archivos. Busca y selecciona el archivo XPI que deseas instalar y haz clic en "Abrir".
+
+7. **Confirma la Instalación:**
+   Firefox te pedirá confirmación para instalar el complemento. Haz clic en "Instalar ahora" para proceder.
+
+8. **Reinicia Firefox:**
+   Algunos complementos pueden requerir que reinicies Firefox para completar la instalación. Si es necesario, verás un botón para reiniciar el navegador. Haz clic en él.
 
 # Notas técnicas
 <p>Esta función ya existía en Séneca como clonarCalificacionF8() pero no estaba anunciada. En algún momento la hicieron desaparecer del código y ahí se me ocurrió hacer un addon del navegador.
